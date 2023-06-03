@@ -186,7 +186,11 @@
             <div class="hire">
               <h2>You want me to do</h2>
               <!-- checkout formspree.io for easy form setup -->
-              <form class="work-request">
+              <form 
+                class="work-request"
+                action="https://formspree.io/f/mjvdqyov"
+                method="POST"
+              >
                 <div class="work-request--options">
                   <span class="options-a">
                     <input id="opt-1" type="checkbox" value="app design">
@@ -269,7 +273,7 @@
                     <label for="name">Name</label>
                   </div>
                   <div class="information-email">
-                    <input id="email" type="email" spellcheck="false">
+                    <input name="email" id="email" type="email" spellcheck="false">
                     <label for="email">Email</label>
                   </div>
                 </div>
